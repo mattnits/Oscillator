@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Oscillator</title>
+        <!-- <meta http-equiv="content-type" content="text/html; charset=UTF-8"> -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+        <link rel="stylesheet" type='text/css' href="css/home.css">
+    </head>
+
+    <body class="body">
+        <h1 class="oscillator">OSCILLATOR</h1>
+        <div class="form">
+            <div class="songContainer">
+                <span class="songName">Song Title</span>
+                <span class="artistName">Artist Name</span>
+                <br>
+            </div>
+            <form action="/search" method="POST">
+                <div class="artistContainer">
+                    <input type="text" class="songInput" name="songInput">
+                    <input type="text" class="artistInput" name="artistInput">
+                </div>
+                
+                <button class="submitButton">Submit</button>
+            </form>
+        </div>
+
+        <div class="tableDiv">
+            <table class="songTable">
+                <tr class="">
+                    <th>Album</th>
+                    <th>Title</th>
+                    <th>Artist</th>
+                    <th>BPM</th>
+                    <th>Energy</th>
+                    <th>Genre</th>
+                </tr>
+            </table>
+        </div>
+        
+        
+    </body>
+</html>
